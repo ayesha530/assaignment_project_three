@@ -4,10 +4,124 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <!-- goole font -->
+    <link rel="stylesheet" href="css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
    <script src="https://cdn.tailwindcss.com"></script>
+   <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#212121',
+            secondary : '#494949',
+          },
+          backgroundImage:{
+            banner: "url('./images/banner.png')",
+          },
+          fontFamily:{
+            Manrope: 'Manrope',
+          },
+          
+        }
+      }
+    }
+  </script>
 </head>
 <body>
-    
+    <div class="navbar bg-base-100">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16" />
+              </svg>
+            </div>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+              <li><a>Home</a></li>
+              <li><a>Abo</a></li>
+              <li><a></a></li>
+            </ul>
+          </div>
+           <div class="logo">
+
+            <a class="btn btn-ghost text-xl">Rinterio</a>
+           </div>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li><a>Home</a></li>
+            <li><a>Service</a></li>     
+            <li><a>Portfolio</a></li>      
+            <li><a>Blogs</a></li>      
+            <li><a>Contact Us</a></li>      
+                  
+            </ul>
+        </div>
+        <div class="navbar-end">
+          <a class="btn">Button</a>
+        </div>
+      </div>
+      <!-- design section start -->
+         <section class="bg-[#efefef] design_section">
+           <div class="w-11/12 mx-auto">
+            <!--  -->
+            <div class="grid lg:grid-cols-2  md:grid-cols-1  p-8 design">
+              <div class="p-7">
+                <div class="top-5 mb-4">
+                  <span class="font-Manrope  text-base  test-Secondary font-bold bg-[#fff] p-3 border-r-4 w-8 "> <i class="fa-solid fa-arrow-right mr-2"></i>  About Us</span>
+                </div>
+                <h2 class="text-Primary font-Manrope text-[40px] font-bold sm:text-[24px]">We design thoughtful, liveable spaces</h2>
+                <p class="text-secondary font-Manrope text-base font-bold w-[480px]">The barn house captivates with its blend of rustic charm and 
+                 modern sophistication, featuring weathered wood, sleek metal accents.</p>
+                 <!--  -->
+                 <div class="flex bg-[#fff] p-4 mt-5 border-r-2">
+                   <div class="p-5">
+                    <img src="images/commercial.png">
+                  </div>
+  
+                   <div class="ml-5">
+                     <h2 class="font-extrabold text-secondary font-Manrope text-xl mb-2">Commercial</h2>
+                     <p class="text-[#737373] font-medium text-base font-Manrope w-[320px]">The barn house captivates with its blend of rustic charm and modern.</p>
+                   </div>
+                 </div>
+                 <!--  -->
+                 <div class="flex bg-[#fff] p-4 mt-5 border-r-2">
+                  <div class="p-5">
+                   <img src="images/residential.png">
+                 </div>
+ 
+                  <div class="ml-5">
+                    <h2 class="font-extrabold text-secondary font-Manrope text-xl mb-2">Residential</h2>
+                    <p class="text-[#737373] font-medium text-base font-Manrope w-[320px]">The barn house captivates with its blend of rustic charm and modern.</p>
+                  </div>
+                </div>
+                <!--  -->
+              </div>
+              <!--  -->
+              <div class="border-r-2">
+               <img src="images/Rectangle.png">
+             </div>
+             <!--  -->
+           </div>
+           <!--  -->
+           </div>
+            <!-- design end -->
+             <!-- client start -->
+              <!-- client end -->
+         </section>
+       <!-- design section end -->
 </body>
 </html>
