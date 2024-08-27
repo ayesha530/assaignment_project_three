@@ -35,8 +35,10 @@
        <div class="w-11/12 m-auto font-Manropes">
         <div class="navbar">
           <div class="navbar-start">
-             <div class="logo">
-  
+             <div class="logo flex items-center">
+              <div class="flex  items-center justify-center text-[#fff] bg-[#000] w-[30px] h-[30px] rounded-[50%] ">
+                <i class="fa-solid fa-arrow-right"></i>
+              </div> 
               <a class="btn btn-ghost text-xl">Rinterio</a>
              </div>
           </div>
@@ -51,13 +53,23 @@
               </ul>
           </div>
           <div class="navbar-end">
-            <div class="flex items-center">
-              <i class="fa-solid fa-magnifying-glass w-[20px] h-[20px] rounded-[15px]"></i>
+            <div class="flex items-center justify-center text-[#ddd] bg-[#fff] w-[40px] h-[40px] rounded-[50%] mr-2">
+              <i class="fa-solid fa-magnifying-glass "></i>
             </div>
-            <div class=" flex">
-              <button class="bg-[#ABEF5F] text-base font-extrabold text-primary px-4 py-2 rounded-[15px]">Book Consult
-                <span class=""><i class="fa-solid fa-arrow-right text-[#fff] ml-2 bg-[#000] w-[25px] h-[25px] rounded-[15px]"></i></span>
-              </button>
+            <!--  -->
+            <div class="flex items-center justify-center text-[#ddd] bg-[#fff] w-[40px] h-[40px] rounded-[50%] mr-2">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+            <div class="flex">
+               <div>
+                <button class="bg-[#ABEF5F] lg:text-base sm:text-[12px] font-extrabold text-primary lg:px-4 lg:py-2 rounded-[15px]">Book Consult</button>
+               </div>
+               <div class=""s>
+                <div class="flex  items-center justify-center text-[#fff] bg-[#000] w-[30px] h-[30px] rounded-[50%] ">
+                  <i class="fa-solid fa-arrow-right"></i>
+                </div> 
+               </div>
+              
             </div>
             <div class="dropdown">
               <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -104,7 +116,7 @@
             <div class="grid lg:grid-cols-2  md:grid-cols-1  p-8 design">
               <div class="p-7">
                 <div class="top-5 mb-4">
-                  <span class="font-Manrope  text-base  test-Secondary font-bold bg-[#fff] p-3 border-r-4 w-8 "> <i class="fa-solid fa-arrow-right mr-2"></i>  About Us</span>
+                  <span class="font-Manrope  text-base  test-Secondary font-bold bg-[#fff] p-3 rounded-xl w-8 "> <i class="fa-solid fa-arrow-right mr-2"></i>  About Us</span>
                 </div>
                 <h2 class="text-Primary font-Manrope text-[40px] font-bold sm:text-[24px]">We design thoughtful, liveable spaces</h2>
                 <p class="text-secondary font-Manrope text-base font-bold w-[480px]">The barn house captivates with its blend of rustic charm and 
@@ -143,7 +155,7 @@
            </div>
             <!-- design end -->
              <!-- client start -->
-               <div class="bg-[#fff] lg:w-[1180px] m-auto p-8 grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 border-r-4 mb-5">
+               <div class="bg-[#fff] lg:w-[1180px] m-auto p-8 grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 rounded-lg mb-5">
                  <div>
                   <div class="font-Manrope">
                     <span class="flex justify-center text-[25px]"><i class="fa-regular fa-message"></i></span>
@@ -175,7 +187,7 @@
               <div class="w-11/12 m-auto font-Manrope pt-12 pb-12">
                 <div class="flex justify-center">
                   <div class="top-5 mb-4">
-                    <span class="font-Manrope  text-base  test-Secondary font-bold bg-[#fff] p-3 border-r-[15%] w-8 "> <i class="fa-solid fa-arrow-right mr-2"></i>  About Us</span>
+                    <span class="font-Manrope  text-base  test-Secondary font-bold bg-[#fff] p-3 rounded-xl w-8 "> <i class="fa-solid fa-arrow-right mr-2"></i>  About Us</span>
                   </div>
                 </div>
                   <h2 class="text-[40px] font-bold text-primary mb-4 text-center">Our Works Process</h2>
@@ -238,7 +250,12 @@
                       <div class="mt-4">
                         <h3 class="text-2xl font-extrabold mb-3 ">Commercial</h3>
                         <p class="text-[#737373] lg:text-base text-[14px] sm:w-[320px] font-medium mb-4 ">The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern .</p>
-                        <button class="bg-[#E9E9E9] text-xl font-extrabold text-primary">View Details<i class="fa-solid fa-arrow-right mr-2 bg-[#ABEF5F] w-2 h-2 border-r-8 "></i></button>
+                        <div class="top-5 mb-4 flex mt-3">
+                          <div class="">
+                            <button class="text-base  test-Secondary font-bold bg-[#ABEF5F33]"> View Details </button>
+                          </div>
+                          <div class="flex ml-2 items-center justify-center text-[#000] bg-[#ABEF5F] w-[25px] h-[25px] rounded-[50%] "><i class="fa-solid fa-arrow-right mr-2"></i></div> 
+                        </div>
                       </div>
                     </div>
                     <!--  -->
@@ -259,7 +276,12 @@
                       <div class="ml-3 mt-4">
                         <h3 class="text-2xl font-extrabold mb-3 ">Commercial</h3>
                         <p class="text-[#737373] lg:text-base w-[320px] text-[14px] font-medium mb-4 ">The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern .</p>
-                        <button class="bg-[#E9E9E9] text-xl font-extrabold text-primary">View Details<i class="fa-solid fa-arrow-right mr-2 bg-[#ABEF5F] w-2 h-2 border-r-8 "></i></button>
+                        <div class="top-5 mb-4 flex mt-3">
+                          <div class="">
+                            <button class="text-base  test-Secondary font-bold bg-[#ABEF5F33]"> View Details </button>
+                          </div>
+                          <div class="flex ml-2 items-center justify-center text-[#000] bg-[#ABEF5F] w-[25px] h-[25px] rounded-[50%] "><i class="fa-solid fa-arrow-right mr-2"></i></div> 
+                        </div>
                       </div>
                     </div>
                     <!--  -->
@@ -299,8 +321,11 @@
                         <h2 class="text-xl font-extrabold text-secondary">How to choose the furniture right  of your home.
                         </h2>
                         <p class="text-base font-medium text-[#737373]">The barn house captivates with its blend of rustic charm and modern. </p>
-                        <div class="top-5 mb-4">
-                          <button class="text-base  test-Secondary font-bold bg-[#ABEF5F33]"> Read More<i class="fa-solid fa-arrow-right mr-2"></i> </button>
+                        <div class="top-5 mb-4 flex mt-3">
+                          <div class="">
+                            <button class="text-base  test-Secondary font-bold bg-[#ABEF5F33]"> Read More </button>
+                          </div>
+                          <div class="flex ml-2 items-center justify-center text-[#000] bg-[#ABEF5F] w-[25px] h-[25px] rounded-[50%] "><i class="fa-solid fa-arrow-right mr-2"></i></div> 
                         </div>
                       </div>
                     </div>
@@ -318,8 +343,11 @@
                         <h2 class="text-xl font-extrabold text-secondary">How to choose the furniture right  of your home.
                         </h2>
                         <p class="text-base font-medium text-[#737373]">The barn house captivates with its blend of rustic charm and modern. </p>
-                        <div class="top-5 mb-4">
-                          <button class="text-base  test-Secondary font-bold bg-[#ABEF5F33]"> Read More<i class="fa-solid fa-arrow-right mr-2"></i> </button>
+                        <div class="top-5 mb-4 flex mt-3">
+                          <div class="">
+                            <button class="text-base  test-Secondary font-bold bg-[#ABEF5F33]"> Read More </button>
+                          </div>
+                          <div class="flex ml-2 items-center justify-center text-[#000] bg-[#ABEF5F] w-[25px] h-[25px] rounded-[50%] "><i class="fa-solid fa-arrow-right mr-2"></i></div> 
                         </div>
                       </div>
                     </div>
@@ -337,8 +365,11 @@
                         <h2 class="text-xl font-extrabold text-secondary">How to choose the furniture right  of your home.
                         </h2>
                         <p class="text-base font-medium text-[#737373]">The barn house captivates with its blend of rustic charm and modern. </p>
-                        <div class="top-5 mb-4">
-                          <button class="text-base  test-Secondary font-bold bg-[#ABEF5F33]"> Read More<i class="fa-solid fa-arrow-right mr-2"></i> </button>
+                        <div class="top-5 mb-4 flex mt-3">
+                          <div class="">
+                            <button class="text-base  test-Secondary font-bold bg-[#ABEF5F33]"> Read More </button>
+                          </div>
+                          <div class="flex ml-2 items-center justify-center text-[#000] bg-[#ABEF5F] w-[25px] h-[25px] rounded-[50%] "><i class="fa-solid fa-arrow-right mr-2"></i></div> 
                         </div>
                       </div>
                     </div>
@@ -349,7 +380,7 @@
             </section>
            <!-- discuss section end -->
           <!-- Project section start -->
-           <section class="bg-project bg-cover bg-no-repeat bg-center lg:h-[90vh] h-[100vh] font-Manrope">
+           <section class="bg-project bg-cover bg-no-repeat bg-center lg:h-[100vh] sm:h-[100vh] font-Manrope">
              <div class="w-11/12 m-auto ">
               <div class="flex justify-center pt-12 ">
                 <div class="top-5 mb-4">
